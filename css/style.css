@@ -44,7 +44,11 @@ padding: 100px 0 0 0px;
   font-size: 1.9rem;
 }
 
+.header_pages {
+  padding: auto;
+  text-align: center;
 
+}
 
 
 /*--presentation--*/
