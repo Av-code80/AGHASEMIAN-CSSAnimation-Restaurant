@@ -360,6 +360,7 @@ padding: 9rem 0rem;
   -webkit-box-shadow: 0 3px 8px #c2c2c2;
   box-shadow: 0rem 0.1rem 0.7rem #c2c2c2;
   cursor: pointer;
+  transform: scale(1);
 }
 
 .btn a {
@@ -375,6 +376,7 @@ padding: 9rem 0rem;
   background: linear-gradient(170deg, #ffa2e5, #a978e3);
   -webkit-box-shadow: 0rem 0.2rem 0.5rem #a9a9a9;
   box-shadow: 0rem 0.3rem 0.8rem #a9a9a9;
+  transform:scale(1.15);
 }
 
 
