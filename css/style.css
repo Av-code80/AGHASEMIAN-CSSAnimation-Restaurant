@@ -152,59 +152,46 @@ h1, h2, h3 {
 
 /*--Button-presentation--*/
 
-.btn {
-  
-    font-family: "Roboto", sans-serif;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 55px;
-    padding: 0 49px;
-    border: none;
-    border-radius: 1.5rem;
-    color: #fff;
-    font-size: 1rem;
-    font-weight: 500;
-    background: -o-linear-gradient(280deg, #FF79DA, #a16be0);
-    background: linear-gradient(175deg, #FF79DA, #a16be0);
-    -webkit-box-shadow: 0 3px 8px #c2c2c2;
-    box-shadow: 0 4px 9px #c2c2c2;
-    cursor: pointer;
-    transition: transform 330ms ease-in-out ;
-    transition-timing-function: cubic-bezier(.42, 0, .58, 1);
-    transform: translate3d(1);
-    transition: opacity 250ms;
-
+.btn { 
+  font-family: "Roboto", sans-serif;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: none;
+  font-size: 1rem;
+  padding: 17px 24px;
+  border-radius: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  background: -o-linear-gradient(180deg, #FF79DA, #a16be0);
+  background: linear-gradient(180deg, #FF79DA, #a16be0);
+  cursor: pointer;
+  -webkit-box-shadow: 0 3px 8px #c2c2c2;
+  box-shadow: 0 4px 9px #c2c2c2;
+  transition: opacity 250ms;   
 }
 
 .btn a {
-  color: #fff;
-}
-
-.btn--search {
-  padding: 17px 25px;
+color: #fff;
 }
 
 .btn:hover {
-  background: -o-linear-gradient(280deg, #ffa2e5, #a978e3);
-  background: linear-gradient(170deg, #ffa2e5, #a978e3);
-  -webkit-box-shadow: 0 3px 8px #a9a9a9;
-          box-shadow: 0 3px 8px #a9a9a9;
-          transform: scale(1.13);
-          transition-delay: 150ms;
-          opacity: 1.15;
-
-
+background: -o-linear-gradient(150deg, #ffa2e5, #ff66ff);
+background: linear-gradient(150deg, #ffa2e5, #ff66ff);
+-webkit-box-shadow: 0 3px 8px #a9a9a9;
+box-shadow: 0 3px 8px #a9a9a9;
+opacity: 1;
 }
 
 @media screen and (min-width: 600px) {
-  .btn {
-    -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-            transform: scale(1.1);
-            transition: all 450ms;
+.btn {
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 450ms;
+  transition: opacity 250ms; 
 
-  }
+}
 }
 
 
