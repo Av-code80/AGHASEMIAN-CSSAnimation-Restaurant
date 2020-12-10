@@ -1,0 +1,96 @@
+
+
+.plates{
+    background-color: $white;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1rem;
+    overflow: hidden;
+    @include shadow-box;
+    padding: 0;
+    position: relative;
+    opacity: 0;
+    &__text{
+        padding: 18px 0 15px 12px;
+        transform: scaleX(1);
+        transform-origin: left;
+        @include check-transition-timing(forward);
+        justify-content: space-between;
+        .plate_name{
+            margin-bottom: 6px;
+            font-size: 1.1rem;
+            white-space: nowrap;
+            font-weight: 600;
+        }
+        p{
+            font-size: 0.95rem;
+            font-weight: 300;
+             margin: 0;
+             text-overflow: ellipsis;
+        }
+    }
+    &__price{
+        color: $dark-gray;
+        bottom: 20px;
+        font-weight: 700;
+        right: 20px;
+        position: absolute;
+        transform-origin: right;
+        @include check-transition-timing(transform);
+    }
+    .animation__checking{
+        width: 75px;
+        display: flex;
+        background-color: $tertiary-color;
+        width: $check-transition-width;
+        transform-origin: right;
+        transform: scaleX(0);
+        @include check-transition-timing(transform);
+        .anim_icon{
+            font-size: 1.6rem;
+            margin: auto;
+            color: $white;
+            transform: rotate(0deg);
+            @include check-transition-timing(transform);
+        }
+    }
+    &:hover{
+        cursor: pointer;
+    }
+    &:hover .plate_name, p{
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    }
+    &:hover .animation__checking{
+        transform: scaleX(1);
+    }
+    &:hover .anim_icon{
+        transform: rotate(360deg);
+    }
+    &:hover .plates__price{
+        transform: translateX(-$check-transition-forward);
+    }
+
+
+
+    @keyframes menu-load{
+        0% {
+            transform: translateY(20px);
+        }
+        50%{
+            opacity: .5;
+        }
+        100% {
+            transform: translate(0);
+            opacity: 1;
+        }
+    }
+
+    @for $i from 1 through ($max-plates){                     
+        &:nth-of-type(#{$i}){
+            animation: menu-load 800ms $menu-appear-delay*$i forwards;
+        }
+    }

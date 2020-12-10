@@ -1,0 +1,102 @@
+
+.restaurants{
+    @include gray-background;
+    padding: 50px 20px 40px;
+    h2{
+        margin-bottom: 24px;
+    }
+    @include breakpoints(tablet){
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .restaurants-container{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        h2{
+            margin-bottom: 30px;
+            font-size: 2rem;
+            &::before, &::after{
+                content: "";
+                display: inline-block;
+                background-color: $primary-color;
+                height: 2px;
+                width: 75px;
+                vertical-align: middle;
+                margin: 0 10px;
+            }
+        }
+    }
+}
+
+.resto-prev{
+    overflow: hidden;
+    height: 245px;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    @include shadow-box;
+    &__image{
+        height: 70%;
+        position: relative;
+        overflow: hidden;
+        border-radius: 1rem 0rem 0rem;
+        img{      
+            object-fit: cover;
+            width: 100%;
+            height: 100%;
+        }
+        .brand{
+            background-color: $tertiary-color;
+            color: darken($tertiary-color, 30%);
+            top: 14px;
+            padding: 6px 10px;
+            right: 10px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            border-radius: 3px;
+            position: absolute;
+        }
+    }
+    &__explanation{
+        height: 30%;
+        background-color: $white;
+        .text{
+            flex: 1;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 1.1rem;
+            padding-left: 13px;
+            .Naming{
+                margin: 0;
+                font-weight: 700;
+                & + p{
+                    font-weight: 300;
+                    margin: 0;
+                    font-size: 1rem;
+                }
+            }
+        }
+        .text-heart{
+            width: 70px;
+            @include heart-transition;
+            .emptyHeart{
+                margin: auto;
+            }
+        }
+    }
+    @include breakpoints(tablet){
+        width: 49%;
+    }
+    @include breakpoints(desktop){
+        height: 340px;
+        &__image{
+            height: 75%;
+        }
+        &__explanation{
+            height: 25%;
+        }
+    }
+}

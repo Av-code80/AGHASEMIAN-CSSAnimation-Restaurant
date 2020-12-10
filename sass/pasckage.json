@@ -1,0 +1,20 @@
+{
+    "name": "AAGhasemian_3_13112020",
+    "version": "1.0.0",
+    "description": "",
+    "principal": "",
+    "scripts": {
+      "sass": "sass --watch ./sass/main.scss:./assets/css/style.css",
+      "prefix": "postcss ./assets/css/style.css --use autoprefixer -d ./assets/css/prefixed/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Av-code80/P3_AAGhasemian_OC"
+    },
+    "author": "Aveh Ali Ghasemian",
+    "license": "ISC",
+    "bugs": {
+      "url": ""
+    },
+    "homepage": "https://av-code80.github.io/P3_AAGhasemian_OC/",
+  }

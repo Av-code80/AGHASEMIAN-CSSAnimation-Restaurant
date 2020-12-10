@@ -1,0 +1,50 @@
+
+
+
+@mixin restaurant-bg-picture($restaurant) {
+    background: url('../../images/#{map-get($images-resto, $restaurant)}') center/cover;
+}
+
+@mixin breakpoints($min-device) {
+    @media screen and (min-width: map-get($breakpoints-map, $min-device)){
+        @content;
+    }
+}
+
+
+@mixin shadow-box($color: darken($gray-color, 20%)) {      
+    box-shadow: 0 3px 8px $color;
+}
+
+@mixin gray-background($scale: 0%){
+    background-color: darken($gray-color, $scale);
+}
+
+@mixin check-transition-timing($type){
+    transition: $type 300ms 100ms linear;
+}
+
+@mixin heart-transition{
+    .emptyHeart{
+        font-size: 1.7rem;
+        cursor: pointer;
+        position: relative;
+        transition: color 150ms 50ms ease;
+        &:hover{
+            color: transparent;
+        }
+        &:hover > .fullHeart{
+            transform: scale(1);
+        }
+    }
+    .fullHeart{
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: linear-gradient(170deg, $secondary-color, $primary-color);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        transform: scale(0);
+        transition: transform 150ms 50ms ease-in-out;
+    }
+}

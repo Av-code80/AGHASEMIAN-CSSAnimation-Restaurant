@@ -1,0 +1,25 @@
+
+
+
+.btn{
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    box-sizing: border-box;
+    color: $white;
+    border: none; 
+    font-size: 1rem;
+    padding: 17px 22px;
+    font-weight: 500;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    background: linear-gradient(180deg, $secondary-color, lighten($primary-color, 7%));
+    @include shadow-box;
+   
+    .btn:hover{
+        background: linear-gradient(150deg, lighten($secondary-color, 20%), lighten($primary-color, 20%));
+        @include shadow-box(darken($gray-color, 30%));
+    }
+    @include breakpoints(tablet){
+        transform: scale(1.2);
+    }
+}

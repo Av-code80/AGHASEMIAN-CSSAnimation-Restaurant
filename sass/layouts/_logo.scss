@@ -1,0 +1,39 @@
+
+
+
+.logo-image{
+    height: 65px;
+   &__img{
+        margin: auto;
+        width: 165px;
+        @include breakpoints(tablet){
+            width: 215px;
+        }
+    }
+}
+
+.header_pages{
+    align-items: center;
+    height: 6px;
+    padding-right: 70px;
+    a{
+        color: $dark-gray;
+        width: 62px;
+        height: 50%;
+        i{
+            font-size: 1.4rem;
+            margin: auto;
+        }
+    }
+    h1{
+        font-family: 'Shrikhand', cursive;
+        font-weight: 500;
+        font-size: 1.9rem;
+        text-align: center;
+        flex: 1;
+        @include breakpoints(tablet){
+        font-size: 2.4rem;
+
+        }
+    }
+}

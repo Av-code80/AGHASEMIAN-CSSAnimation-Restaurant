@@ -1,0 +1,18 @@
+
+
+
+.placement{
+    @include gray-background(5%);
+    color: $dark-gray;
+    height: 52px;
+    box-shadow: inset 0 5px 4px -2px darken($gray-color, 16%);
+    i{
+        margin-right: 10px;
+    }
+    p{
+        margin: auto;
+    }
+    @include breakpoints(tablet){
+        font-size: 1.2rem;
+    }
+}

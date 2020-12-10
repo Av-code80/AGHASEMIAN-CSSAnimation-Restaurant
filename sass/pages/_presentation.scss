@@ -1,0 +1,19 @@
+
+
+.presentation{
+    text-align: center;
+    @include gray-background;
+    text-align: center;
+    padding: 35px 45px 55px;
+    h2{
+        margin-bottom: 15px;
+    }
+    p{
+        margin: 20px 0px 35px;
+    font-weight: 300;
+    font-size: 1.1rem;
+    }
+    @include breakpoints(tablet){
+        font-size: 1.2rem;
+    }
+}
