@@ -17,7 +17,7 @@
    
     .btn:hover{
         background: linear-gradient(150deg, lighten($secondary-color, 20%), lighten($primary-color, 20%));
-        @include shadow-box(darken($gray-color, 30%));
+        @include shadow-box(darken($gray, 30%));
     }
     @include breakpoints(tablet){
         transform: scale(1.2);

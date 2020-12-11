@@ -1,5 +1,3 @@
-
-
 .plates{
     background-color: $white;
     margin-top: 15px;
@@ -58,19 +56,19 @@
     &:hover{
         cursor: pointer;
     }
-    &:hover .plate_name, p{
+    :hover .plate_name, p{
             text-overflow: ellipsis;
             overflow: hidden;
             white-space: nowrap;
         }
     }
-    &:hover .animation__checking{
+    :hover .animation__checking{
         transform: scaleX(1);
     }
-    &:hover .anim_icon{
+    :hover .anim_icon{
         transform: rotate(360deg);
     }
-    &:hover .plates__price{
+    :hover .plates__price{
         transform: translateX(-$check-transition-forward);
     }
 

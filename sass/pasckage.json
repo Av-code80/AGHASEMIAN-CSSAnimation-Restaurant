@@ -1,5 +1,5 @@
 {
-    "name": "AAGhasemian_3_13112020",
+    "name": "avehghasemian_3_13112020",
     "version": "1.0.0",
     "description": "",
     "principal": "",
@@ -14,7 +14,7 @@
     "author": "Aveh Ali Ghasemian",
     "license": "ISC",
     "bugs": {
-      "url": ""
+      "url": "https://github.com/Av-code80/P3_AAGhasemian_OC/issues/1"
     },
-    "homepage": "https://av-code80.github.io/P3_AAGhasemian_OC/",
+    "homepage": "https://av-code80.github.io/P3_AAGhasemian_OC/"
   }

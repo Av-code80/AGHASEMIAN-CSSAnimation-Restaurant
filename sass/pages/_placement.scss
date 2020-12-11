@@ -5,7 +5,7 @@
     @include gray-background(5%);
     color: $dark-gray;
     height: 52px;
-    box-shadow: inset 0 5px 4px -2px darken($gray-color, 16%);
+    box-shadow: inset 0 5px 4px -2px darken($gray, 16%);
     i{
         margin-right: 10px;
     }

@@ -34,14 +34,12 @@ a {
   }
   
 
-
 .loading{
     display: flex;
-    background-color: rgba($gray-color, 0.5);
+    background-color: rgba($gray, 0.5);
     transform: scale(0);
     position: fixed;
     z-index: 3;
-    animation: load-background 3s 100ms backwards;
     animation: load-background $loading-dur $loading-delay backwards;
 
     .spinner{
@@ -49,7 +47,7 @@ a {
         color: $primary-color;
         margin: auto;
         font-size: 8rem;
-        animation: load-spinner 3s 100ms linear backwards;
+        animation: load-spinner $loading-dur $loading-delay linear backwards;
     }
 }
 
