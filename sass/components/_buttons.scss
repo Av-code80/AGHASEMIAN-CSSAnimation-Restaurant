@@ -1,6 +1,5 @@
 
 
-
 .btn{
     font-family: 'Roboto', sans-serif;
     display: inline-block;
@@ -18,8 +17,10 @@
     .btn:hover{
         background: linear-gradient(150deg, lighten($secondary-color, 20%), lighten($primary-color, 20%));
         @include shadow-box(darken($gray, 30%));
+        transform: scale(1.01);
+
     }
     @include breakpoints(tablet){
-        transform: scale(1.2);
+        transform: scale(1);
     }
 }

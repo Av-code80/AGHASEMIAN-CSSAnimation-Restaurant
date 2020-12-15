@@ -191,6 +191,8 @@ body, ul {
     -webkit-box-shadow: 0 3px 8px #c2c2c2;
     box-shadow: 0 4px 9px #c2c2c2;
     transition: opacity 250ms;  
+    transform: scale(1);
+
 }
 
 .btn:hover {
@@ -199,6 +201,8 @@ body, ul {
   background: linear-gradient(150deg, #ffa2e5, #ff66ff);
   -webkit-box-shadow: 0 3px 8px #a9a9a9;
   opacity: 1;
+  transform: scale(1.01);
+
 }
 
 
@@ -818,9 +822,9 @@ footer a i {
 /*--600-Button-opacity--*/
 
 .btn {
-  -ms-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+
 }
 
 

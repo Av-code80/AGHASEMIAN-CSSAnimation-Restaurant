@@ -120,12 +120,14 @@ body, ul {
   background: linear-gradient(150deg, #ffdff6, #c9abee);
   -webkit-box-shadow: 0 3px 8px darkgray;
           box-shadow: 0 3px 8px darkgray;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
 }
 
 @media screen and (min-width: 600px) {
   .btn {
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
+    -webkit-transform: scale(1);
+            transform: scale(1);
   }
 }
 
