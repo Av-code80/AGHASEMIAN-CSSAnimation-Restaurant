@@ -804,7 +804,7 @@ footer a i {
 .btn {
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
-  transform: scale(1);
+  transform: scale(1)
 
 }
 
