@@ -467,16 +467,16 @@ body, ul {
 }
 
 .picture.palette_du_gout {
-    background: url('images/jay-wennington-N_Y88TWmGwA-unsplash.jpg') center/cover;
+    background: url("../images/jay-wennington-N_Y88TWmGwA-unsplash.jpg") center/cover;
   }
   .picture.note_enchantee {
-    background: url('images/stil-u2Lp8tXIcjw-unsplash.jpg') center/cover;
+    background: url("../images/stil-u2Lp8tXIcjw-unsplash.jpg") center/cover;
   }
   .picture.a_la_francaise {
-    background: url('images/toa-heftiba-DQKerTsQwi0-unsplash.jpg') center/cover;
+    background: url("../images/toa-heftiba-DQKerTsQwi0-unsplash.jpg") center/cover;
   }
   .picture.delice_des_sens {
-    background: url('images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg') center/cover;
+    background: url("../images/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg") center/cover;
   }
   
 .choosing {
