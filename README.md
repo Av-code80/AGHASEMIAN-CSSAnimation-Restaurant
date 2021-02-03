@@ -23,4 +23,4 @@ Mettre en œuvre des effets CSS graphiques avancés
 Assurer la cohérence graphique d'un site web
 Mettre en place une structure de navigation pour un site web
 
-![Exemple maquette](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/Menu%20-%20La%20palette%20du%20go%C3%BBt.png), (https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/Menu%20-%20La%20note%20enchant%C3%A9e.png)
+![Exemple maquette](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/Menu%20-%20La%20palette%20du%20go%C3%BBt.png), ![](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/Menu%20-%20La%20note%20enchant%C3%A9e.png)
