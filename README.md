@@ -14,7 +14,7 @@ Finis, les temps d'attente au restaurant !
 Les maquettes
 la page d'accueil
 Accueil
-[logo](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/ohmyfood.png)
+![logo](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/ohmyfood.png)
 
 Les pages menus (4 constuites de la même manière)
 Menu - À la française
