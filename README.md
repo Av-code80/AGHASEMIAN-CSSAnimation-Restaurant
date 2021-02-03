@@ -16,7 +16,7 @@ Finis, les temps d'attente au restaurant !
 
 Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte !
 
-Maquette d'acceuil :
+# Maquette d'acceuil :
 
 ![](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/Accueil.png)
 
@@ -46,4 +46,4 @@ Les pages menus (4 constuites de la même manière):
 ![Exemple maquette](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/Menu%20-%20La%20palette%20du%20go%C3%BBt.png), ![](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/Menu%20-%20La%20note%20enchant%C3%A9e.png), ![](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/Menu%20-%20Le%20d%C3%A9lice%20des%20sens.png), ![](https://github.com/Av-code80/P3_AAGhasemian_OC/blob/main/images/Menu%20-%20%C3%80%20la%20fran%C3%A7aise.png)
 
 # Résultat
-Pour consultez [Mons site crée :](https://av-code80.github.io/P3_AAGhasemian_OC/)
+Vous pouvez consulter [mon Site Ohmyfood :](https://av-code80.github.io/P3_AAGhasemian_OC/)
